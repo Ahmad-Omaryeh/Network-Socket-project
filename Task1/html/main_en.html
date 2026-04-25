@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ENCS3320-T1243</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<nav class="navbar">
+  <ul>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#gaza">Gaza</a></li>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#footer">Links</a></li>
+    <li><a href="/ar" class="language-toggle">Change to Arabic</a></li>
+    
+    <li>
+      <a href="https://www.youtube.com/watch?v=bNyUyrR0PHo" target="_blank" class="circle-button" title="Watch Live on YouTube">
+  ▶
+</a>
+<span class="live-label">Live</span>
+
+    </li>
+    <li style="margin-left:auto;">
+      <div class="switch-container">
+        <label class="switch">
+          <input type="checkbox" id="darkModeToggle">
+          <span class="slider"></span>
+        </label>
+        <span class="switch-label">Dark Mode</span>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+
+<h1>Welcome to Computer Networks Webserver</h1>
+
+<section id="team">
+    <h2>Our Team</h2>
+    <div class="team-container">
+        <div class="member-box">
+            <img src="../imgs/Ahmad_omareh.png" alt="Ahmad Omaryah" width="120">
+            <h3>Ahmad Omaryah</h3>
+            <p>ID: 1221289</p>
+            <p>A frontend mobile application developer with experience in building user-friendly interfaces. Holds a certification as a robot trainer. Outside of tech, enjoys swimming as a recreational activity.</p>
+        </div>
+        <div class="member-box">
+            <img src="../imgs/mohammed_othman.png" alt="Mohammed Othman" width="120">
+            <h3>Mohammed Othman</h3>
+            <p>ID: 1221175</p>
+            <p>A backend web developer skilled in Java and proficient in multiple programming languages. Has strong experience working with databases and server-side logic, enjoys playing football in free time.</p>
+        </div>
+        <div class="member-box">
+            <img src="../imgs/Sameer_ayman.png" alt="Sameer Ayman" width="120">
+            <h3>Sameer Ayman</h3>
+            <p>ID: 1221561</p>
+            <p>A detail-oriented QA specialist who enjoys solving algorithmic problems. Passionate about ensuring software quality through thorough testing. Also a fan of video games, especially FIFA.</p>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section id="gaza">
+    <div class="gaza-header">
+        <h2>Suffering of People in Gaza</h2>
+        <form action="/search" method="get" class="search-form">
+    <div class="form-group">
+        <label for="keyword">Search for an event:</label>
+        <input type="text" id="keyword" name="keyword" placeholder="Enter keyword" required>
+    </div>
+
+    <div class="form-group">
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="text">Text</option>
+            <option value="image">Images</option>
+            <option value="video">Videos</option>
+        </select>
+    </div>
+
+    <button type="submit" class="search-button">Search</button>
+</form>
+
+        <div class="gaza-paragraph">
+
+            <div class="gaza-block">
+                <img src="../imgs/Losing_lives.jpg" alt="Fear and Anxiety">
+                <div>
+                    <h3>The Fear of Losing Lives</h3>
+<p><strong>Every single day</strong>, the people of Gaza live under the <em>constant threat</em> of airstrikes, bombings, and sudden destruction. <strong>Children scream in fear</strong> during the night, uncertain if they will survive until morning. Sirens pierce the silence, homes are flattened in seconds, and the idea of safety has become a memory. <em>There is no warning, no mercy, and no peace.</em> The trauma carved into their hearts will echo for generations. What was once a routine life has become a terrifying waiting game between survival and sorrow.</p>
+                </div>
+            </div>
+
+            <div class="gaza-block">
+                <img src="../imgs/loved.jpg" alt="Sadness and Loss">
+                <div>
+                    <h3>Sadness of Losing Loved Ones</h3>
+<p><strong>Grief has consumed Gaza</strong>. People have watched helplessly as their fathers, mothers, siblings, and children were taken from them in moments. <em>The pain of burying loved ones day after day</em> has become unbearable. Entire families vanish beneath the rubble, while others weep beside freshly dug graves. <strong>Funerals have outnumbered celebrations</strong>, and tears have become a constant companion. As one resident put it: <em>"We buried my brother yesterday, and today we are searching for my cousin under the debris."</em></p>
+                </div>
+            </div>
+
+            <div class="gaza-block">
+                <img src="../imgs/Starving.jpg" alt="Food and Water Crisis">
+                <div>
+                    <h3>Lack of Food and Clean Water</h3>
+<p><strong>Basic human needs</strong> such as food and clean water have become luxuries. People stand in <em>endless lines</em> hoping to find a loaf of bread. Children drink from contaminated sources because there are no alternatives. <em>Markets are empty, refrigerators are useless due to power outages, and hunger haunts every household.</em></p>
+
+<ul>
+    <li>Markets are empty</li>
+    <li>Refrigerators don’t work due to constant power outages</li>
+    <li>Children drink unsafe water</li>
+    <li>People wait for hours just to get bread</li>
+</ul>
+
+<p>The world watches as Gaza starves. Survival is no longer about living — it's about finding one more meal for the day.</p>
+
+<hr>                </div>
+            </div>
+
+            <div class="gaza-block">
+                <img src="../imgs/displacement.jpg" alt="Displacement Hardships">
+                <div>
+                    <h3>Forced Displacement</h3>
+<p><strong>Nowhere is safe</strong>. Families are pushed out of their homes repeatedly, running from bombed neighborhoods to overcrowded shelters.</p>
+
+<ul>
+    <li>Schools turned into shelters</li>
+    <li>Mosques repurposed as emergency housing</li>
+    <li>Public buildings overcrowded with displaced families</li>
+    <li>No access to medical care or hygiene supplies</li>
+    <li>Privacy and comfort are no longer possible</li>
+</ul>
+
+<p><em>Schools, mosques, and public buildings have become temporary homes</em> lacking the most basic needs. Privacy is gone, comfort is a dream, and medical care is unavailable.</p>
+
+<ol>
+    <li>Mother is sent to one shelter</li>
+    <li>Father ends up in another</li>
+    <li>Children are lost or taken elsewhere</li>
+</ol>
+
+<p>This isn’t just displacement; it’s the collapse of home, stability, and identity.</p>
+                </div>
+            </div>
+
+            <div class="gaza-block" id="video">
+                <div>
+                    <h3>Thousands March in Support of Palestinians on Sydney Harbour Bridge</h3>
+<p><strong>Solidarity for Gaza</strong> is being felt around the world. <em>Thousands of people gathered on Sydney's iconic Harbour Bridge</em> to march in support of Palestinians, raising flags, chanting for justice, and calling for an end to the suffering in Gaza. The peaceful demonstration sent a powerful message to global leaders, showing that the cries of the oppressed are heard far beyond the borders of Palestine. This united front of compassion and activism highlights the growing international demand for accountability and peace.</p>
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1v1dpFN_wlI" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<footer id="footer">
+    <p><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">Course Textbook</a></p>
+    <p><a href="https://ritaj.birzeit.edu/" target="_blank">Ritaj Portal</a></p>
+</footer>
+
+<script>
+    const toggle = document.getElementById("darkModeToggle");
+
+    if (localStorage.getItem("darkMode") === "enabled") {
+        document.body.classList.add("dark-mode");
+        toggle.checked = true;
+    }
+
+    toggle.addEventListener("change", function () {
+        if (toggle.checked) {
+            document.body.classList.add("dark-mode");
+            localStorage.setItem("darkMode", "enabled");
+        } else {
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem("darkMode", "disabled");
+        }
+    });
+</script>
+</body>
+</html>

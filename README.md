@@ -1,12 +1,12 @@
 # Computer Networks Socket Programming
 
-Java socket-programming project for computer networks coursework. This repository demonstrates core networking concepts through two practical tasks: a custom web server and a TCP client/server application.
+Java socket-programming project for computer networks coursework. This repository demonstrates core networking concepts through two practical tasks: a custom HTTP web server and a UDP client/server multiplayer game.
 
 ## Project Overview
 
-- Task 1: Build and run a Java web server that serves static HTML, CSS, and image files.
-- Task 2: Implement socket communication between a Java TCP server and client.
-- Goal: Practice request handling, socket programming, and end-to-end network application flow.
+- Task 1: Build and run a Java web server that serves static HTML, CSS, and image files, supports Arabic/English pages, and handles search with redirect behavior.
+- Task 2: Implement a UDP multiplayer number game using Java client/server sockets.
+- Goal: Practice HTTP request handling, UDP communication, and end-to-end network application flow.
 
 ## Repository Structure
 
@@ -51,7 +51,7 @@ java WebServer
 
 4. Open your browser and visit the server address/port configured in `WebServer.java`.
 
-### Task 2: Client/Server Sockets
+### Task 2: UDP Client/Server Game
 
 1. Go to the Task2 folder.
 2. Compile both files:
@@ -66,16 +66,18 @@ javac Server.java Client.java
 java Server
 ```
 
-4. In a second terminal, run the client:
+4. In a second terminal, run each client:
 
 ```bash
 java Client
 ```
 
+5. Enter a username when prompted and follow round instructions.
+
 ## Learning Outcomes
 
-- Understand TCP socket creation and communication flow.
-- Practice handling basic HTTP-style requests and responses.
+- Understand UDP socket communication and game-state coordination.
+- Practice handling HTTP requests, responses, and redirects.
 - Gain hands-on experience with Java networking APIs.
 
 ## Notes
